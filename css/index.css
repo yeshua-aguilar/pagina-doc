@@ -13,7 +13,7 @@
     width: 99%;
     height: 80%;
     top: 88%;
-    left: 0.8%;
+    left: 0.5%;
 }
 
 .discord u{
@@ -66,8 +66,10 @@
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
     outline: none;
-    position: relative;
+    position: absolute;
     padding: 10px;
+    top: 150%;
+    left: 23%;
     }
   
   button::before {
@@ -99,8 +101,8 @@
     width: 30px; height: 30px;
     border-radius: 100%;
     border: 6px solid #00FFCB;
-    position: absolute;
-    z-index: -1;
+    position:absolute;
+    z-index: 1;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -125,3 +127,33 @@
     }
   }
 /* fin del boton */
+
+#efecto1{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+
+.cuadro{
+  background: rgb(74, 101, 221);
+  position: absolute;
+  width: 99%;
+  left: 0.5%;
+  height: 70%;
+  top: 168%;
+}
+
+.cuadro p{
+  position: absolute;
+  left: 15%;
+}
+
+.cuadro2{
+  position: absolute;
+  background:turquoise;
+  width: 8%;
+  top: 168%;
+  left: 15%;
+  height: 70%;
+}
+
