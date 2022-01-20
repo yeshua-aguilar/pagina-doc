@@ -27,6 +27,7 @@
     position: absolute;
     top: 110%;
     left: 20%;
+    border-radius: 5%;
 }
 
 #letra3{
@@ -34,6 +35,7 @@
     color: rgb(0, 0, 0);
     top: 103%;
     left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #letra4{
@@ -155,5 +157,33 @@
   top: 168%;
   left: 15%;
   height: 70%;
+}
+
+.cuadro2 p{
+  position: absolute;
+  top: 30%;
+}
+
+.foto-doc{
+  position: absolute;
+  top: 190%;
+  left: 9%;
+}
+
+.letra4{
+  position: absolute;
+  top: 187%;
+  font-size: 22px;
+  left: 40%;
+}
+
+.circulo{
+  width: 150px;
+  height: 150px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  top: 175%;
+  left: 80%;
+  border-radius: 80px;
 }
 
