@@ -1,11 +1,11 @@
     particlesJS('particles-js', {
       particles: {
         color: '#fff',
-        shape: 'circle', // "circle", "edge" or "triangle"
+        shape: 'triangle', // "circle", "edge" or "triangle"
         opacity: 1,
         size: 4,
         size_random: true,
-        nb: 250,
+        nb: 230,
         line_linked: {
           enable_auto: true,
           distance: 100,
